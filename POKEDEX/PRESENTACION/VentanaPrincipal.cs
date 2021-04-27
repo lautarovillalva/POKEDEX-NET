@@ -57,5 +57,12 @@ namespace PRESENTACION
             Pokemon seleccionado = (Pokemon)dgvPokemons.CurrentRow.DataBoundItem;
             RecargarImg(seleccionado.UrlImagen);
         }
+
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+            frmAgregarPokemon agregar = new frmAgregarPokemon();
+            agregar.ShowDialog();
+            CargarGrilla();
+        }
     }
 }
