@@ -1,0 +1,6 @@
+C:\Users\Lautaro\Documents\GitHub\POKEDEX-NET\POKEDEX\DOMINIO\bin\Debug\DOMINIO.dll
+C:\Users\Lautaro\Documents\GitHub\POKEDEX-NET\POKEDEX\DOMINIO\bin\Debug\DOMINIO.pdb
+C:\Users\Lautaro\Documents\GitHub\POKEDEX-NET\POKEDEX\DOMINIO\obj\Debug\DOMINIO.csprojAssemblyReference.cache
+C:\Users\Lautaro\Documents\GitHub\POKEDEX-NET\POKEDEX\DOMINIO\obj\Debug\DOMINIO.csproj.CoreCompileInputs.cache
+C:\Users\Lautaro\Documents\GitHub\POKEDEX-NET\POKEDEX\DOMINIO\obj\Debug\DOMINIO.dll
+C:\Users\Lautaro\Documents\GitHub\POKEDEX-NET\POKEDEX\DOMINIO\obj\Debug\DOMINIO.pdb

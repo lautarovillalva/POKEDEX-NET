@@ -1,7 +1,7 @@
 ﻿
 namespace PRESENTACION
 {
-    partial class Form1
+    partial class VentanaPrincipal
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -72,45 +72,45 @@ namespace PRESENTACION
             // 
             this.btnAgregar.Location = new System.Drawing.Point(61, 365);
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(75, 23);
+            this.btnAgregar.Size = new System.Drawing.Size(75, 34);
             this.btnAgregar.TabIndex = 3;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
             // 
             // btnModificar
             // 
-            this.btnModificar.Location = new System.Drawing.Point(165, 365);
+            this.btnModificar.Location = new System.Drawing.Point(147, 365);
             this.btnModificar.Name = "btnModificar";
-            this.btnModificar.Size = new System.Drawing.Size(75, 23);
+            this.btnModificar.Size = new System.Drawing.Size(75, 34);
             this.btnModificar.TabIndex = 4;
             this.btnModificar.Text = "Modificar";
             this.btnModificar.UseVisualStyleBackColor = true;
             // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(269, 365);
+            this.btnEliminar.Location = new System.Drawing.Point(233, 365);
             this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(75, 23);
+            this.btnEliminar.Size = new System.Drawing.Size(75, 34);
             this.btnEliminar.TabIndex = 5;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
             // 
             // btnDetalle
             // 
-            this.btnDetalle.Location = new System.Drawing.Point(373, 365);
+            this.btnDetalle.Location = new System.Drawing.Point(319, 365);
             this.btnDetalle.Name = "btnDetalle";
-            this.btnDetalle.Size = new System.Drawing.Size(75, 23);
+            this.btnDetalle.Size = new System.Drawing.Size(75, 34);
             this.btnDetalle.TabIndex = 6;
             this.btnDetalle.Text = "Detalle";
             this.btnDetalle.UseVisualStyleBackColor = true;
             // 
             // btnAgregarElemento
             // 
-            this.btnAgregarElemento.Location = new System.Drawing.Point(477, 365);
+            this.btnAgregarElemento.Location = new System.Drawing.Point(406, 365);
             this.btnAgregarElemento.Name = "btnAgregarElemento";
-            this.btnAgregarElemento.Size = new System.Drawing.Size(75, 23);
+            this.btnAgregarElemento.Size = new System.Drawing.Size(146, 34);
             this.btnAgregarElemento.TabIndex = 7;
-            this.btnAgregarElemento.Text = "AgregarElemento";
+            this.btnAgregarElemento.Text = "Agregar Elemento";
             this.btnAgregarElemento.UseVisualStyleBackColor = true;
             // 
             // dgvPokemons
@@ -122,16 +122,18 @@ namespace PRESENTACION
             this.dgvPokemons.RowTemplate.Height = 24;
             this.dgvPokemons.Size = new System.Drawing.Size(491, 252);
             this.dgvPokemons.TabIndex = 8;
+            this.dgvPokemons.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dgvPokemons_MouseClick);
             // 
             // pbxPokemon
             // 
             this.pbxPokemon.Location = new System.Drawing.Point(577, 86);
             this.pbxPokemon.Name = "pbxPokemon";
             this.pbxPokemon.Size = new System.Drawing.Size(312, 252);
+            this.pbxPokemon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxPokemon.TabIndex = 9;
             this.pbxPokemon.TabStop = false;
             // 
-            // Form1
+            // VentanaPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -146,8 +148,9 @@ namespace PRESENTACION
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.lblFiltro);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "VentanaPrincipal";
+            this.Text = "Ventana principal";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvPokemons)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxPokemon)).EndInit();
             this.ResumeLayout(false);

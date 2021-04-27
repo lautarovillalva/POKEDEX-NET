@@ -8,3 +8,8 @@ C:\Users\Lautaro\Documents\GitHub\POKEDEX-NET\POKEDEX\PRESENTACION\obj\Debug\PRE
 C:\Users\Lautaro\Documents\GitHub\POKEDEX-NET\POKEDEX\PRESENTACION\obj\Debug\PRESENTACION.csproj.CoreCompileInputs.cache
 C:\Users\Lautaro\Documents\GitHub\POKEDEX-NET\POKEDEX\PRESENTACION\obj\Debug\PRESENTACION.exe
 C:\Users\Lautaro\Documents\GitHub\POKEDEX-NET\POKEDEX\PRESENTACION\obj\Debug\PRESENTACION.pdb
+C:\Users\Lautaro\Documents\GitHub\POKEDEX-NET\POKEDEX\PRESENTACION\bin\Debug\DOMINIO.dll
+C:\Users\Lautaro\Documents\GitHub\POKEDEX-NET\POKEDEX\PRESENTACION\bin\Debug\NEGOCIO.dll
+C:\Users\Lautaro\Documents\GitHub\POKEDEX-NET\POKEDEX\PRESENTACION\bin\Debug\DOMINIO.pdb
+C:\Users\Lautaro\Documents\GitHub\POKEDEX-NET\POKEDEX\PRESENTACION\bin\Debug\NEGOCIO.pdb
+C:\Users\Lautaro\Documents\GitHub\POKEDEX-NET\POKEDEX\PRESENTACION\obj\Debug\PRESENTACION.csproj.CopyComplete
